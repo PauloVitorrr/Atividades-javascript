@@ -24,7 +24,12 @@ function calcularGastos() {
     })
 
     let saldo = receitasCalc1 - despesasCalc1
-    console.log(saldo)
+    
+    if(saldo > 0){
+        console.log("seu saldo está positivo " + saldo)
+    } else {
+        console.log("seu saldo está negativo " + saldo)
+    }
 }
 
 
