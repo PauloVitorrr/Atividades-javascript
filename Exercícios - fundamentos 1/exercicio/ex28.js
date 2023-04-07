@@ -6,5 +6,6 @@ function livro(autor,pags, nomeLivro){
     this.totalcap = (pags/10)
 }
 
+
 const got = new livro("George R. R. Martin", 694, "A Guerra dos Tronos")
 console.log(got)
