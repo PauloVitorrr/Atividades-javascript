@@ -5,5 +5,6 @@ function Retangulo(largura, altura){
     this.areatotal = altura * largura
 }
 
+
 const area = new Retangulo(5, 10)
 console.log(area)
