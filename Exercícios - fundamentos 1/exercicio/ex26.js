@@ -5,5 +5,6 @@ function pessoa(nome, idade,profissao){
     this.profissao = profissao
 }
 
+
 const joao = new pessoa("João", 30, "engenheiro")
 console.log(joao)
